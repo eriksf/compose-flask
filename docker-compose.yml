@@ -11,8 +11,6 @@ services:
       - SERVICE_PASSWORD
     ports:
       - "5500:5500"
-    volumes:
-      - .:/code
     depends_on:
       - redis
     networks:
